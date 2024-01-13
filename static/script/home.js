@@ -83,8 +83,6 @@ function access(app) {
 
 
     
-    app.nav.community = app.createLink('#community', 'Community');
-    app.nav.support = app.createLink('#support', 'Support');
     app.nav.apps = app.createLink('#apps', 'Apps');
     app.nav.games = app.createLink('#gs', 'Games');
     app.nav.settings = app.createLink('#settings', '<i class="fas fa-sliders-h secondary"></i>', {
